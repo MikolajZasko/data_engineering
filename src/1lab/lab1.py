@@ -25,7 +25,7 @@ def main():
     for letter in column_names:
 
         # Generate an array of 1,000 random values
-        values = rng.normal(loc=21, scale=37, size=1000)
+        values = rng.normal(loc=21, scale=37, size=100)
 
         data_frame_contents[letter] = values
 
@@ -62,7 +62,7 @@ def main():
         pickle.dump(states_df, file)
 
     # task 2
-    df = pd.read_csv(dataset_dir + '/lab1_ex02.csv')
+    df = pd.read_csv('lab1_ex02.csv')
     missing_vals = df.isnull().sum()
 
     csv_metadata = []

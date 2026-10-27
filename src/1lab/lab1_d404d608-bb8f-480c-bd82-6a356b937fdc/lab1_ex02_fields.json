@@ -1,1 +1,22 @@
-[{"name": "Measurement!", "missing": 0.0625, "type": "float"}, {"name": "Sample ID", "missing": 0.0, "type": "int"}, {"name": "Result Status", "missing": 0.0625, "type": "other"}, {"name": "free TEXT", "missing": 0.0, "type": "other"}]
+[
+    {
+        "name": "Measurement!",
+        "missing": 0.0625,
+        "type": "float"
+    },
+    {
+        "name": "Sample ID",
+        "missing": 0.0,
+        "type": "int"
+    },
+    {
+        "name": "Result Status",
+        "missing": 0.0625,
+        "type": "other"
+    },
+    {
+        "name": "free TEXT",
+        "missing": 0.0,
+        "type": "other"
+    }
+]

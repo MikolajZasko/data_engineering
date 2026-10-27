@@ -1,3 +1,6 @@
+# working dir program files
+/lab[0-9]*_*
+
 # macos
 .DS_store
 
