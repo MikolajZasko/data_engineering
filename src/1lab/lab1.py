@@ -5,14 +5,20 @@ import pickle
 import pandas.api.types as ptypes
 import json
 
-# settings
-dataset_dir = 'lab1_d404d608-bb8f-480c-bd82-6a356b937fdc'
-
 def save_csv(frame, filename, *, index=False):
     frame.to_csv(Path(filename), index=index)
 
 # Create a random number generator
 rng = np.random.default_rng()
+
+def execute_in_script_folder():
+    # Get the folder where this exact .py script is located
+    script_dir = Path(__file__).resolve().parent
+
+    # Build an absolute path to your file relative to the script
+    return script_dir / "lab1_ex03_stats.json"
+
+file_path = execute_in_script_folder()
 
 def main():
 
