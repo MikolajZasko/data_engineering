@@ -29,21 +29,24 @@ def save_json_file(filename, df):
     
     file_path = execute_in_script_folder() / filename
 
-    with open(file_path, "w", encoding='uft-8') as file:
-        json.dump(df,file,indent=4)
+    with open(file_path, "w", encoding='utf-8') as file:
+        json.dump(df, file, indent=4)
 
 def save_csv_file(filename, frame, *, index=False):
-    frame.to_csv(Path(filename), index=index)
+    file_path = execute_in_script_folder() / filename
+    frame.to_csv(file_path, index=index)
 
 def read_txt_file(filename):
-    with open(filename, "r", encoding="utf-8") as file:
+    file_path = execute_in_script_folder() / filename
+    with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
 
 file_path = execute_in_script_folder()
 
 def main():
     # task 1
-    df = pd.read_csv('lab2_ex01.csv', sep=";", decimal=",")
+    csv_path = execute_in_script_folder() / 'lab2_ex01.csv'
+    df = pd.read_csv(csv_path, sep=";", decimal=",")
 
     save_pkl_file("lab2_ex01_df.pkl", df)
 
@@ -54,11 +57,7 @@ def main():
     txt_contents = read_txt_file(filename)
 
     txt_list = [line.strip() for line in txt_contents.split("\n") if line.strip()]
-    txt_dict = {val: index for index, val in enumerate(txt_list,start=1)}
-
-    filename = "lab2_ex02_scale.pkl"
-
-    save_pkl_file(filename, df1)
+    txt_dict = {val: index for index, val in enumerate(txt_list, start=1)}
 
     # modify the vals
     col_name = "rating_767"
@@ -66,12 +65,15 @@ def main():
     for key, val in txt_dict.items():
         df1[col_name] = df1[col_name].replace(txt_dict)
 
+    filename = "lab2_ex02_scale.pkl"
+    save_pkl_file(filename, df1)
+
     # task 3
     df2 = df.copy(True)
 
     custom_cat_type = CategoricalDtype(categories=txt_list, ordered=False)
 
-    for key, val in txt_dict:
+    for key, val in txt_dict.items():
         df2[col_name] = df2[col_name].astype(custom_cat_type)
 
     filename = "lab2_ex03_categories.pkl"
@@ -88,11 +90,6 @@ def main():
 
     # Keep only those specific columns
     filtered_df3 = non_numeric_cols.loc[:, mask]
-
-    #
-    #  \ - line break instead of a huge () ???
-    #   cool functions: rename(), map() / mapper() ???
-    #
 
     save_pkl_file("lab2_ex04_numbers.pkl", filtered_df3)
 
@@ -119,10 +116,8 @@ def main():
 
         print(dummies)
         
-        # Save to the required file naming format
         filename = f"lab2_ex05_col{i}.pkl"
-        dummies.to_pickle(filename)
-        print(f"Saved {col_name} to {filename}")
+        save_pkl_file(filename, dummies)
 
     print(filtered_df)
 
