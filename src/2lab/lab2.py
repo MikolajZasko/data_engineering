@@ -41,14 +41,11 @@ def read_txt_file(filename):
 
 file_path = execute_in_script_folder()
 
-def write_record(record, filename):
-    Path(filename).write_text(json.dumps(record, allow_nan=False), encoding="utf-8")
-
 def main():
     # task 1
     df = pd.read_csv('lab2_ex01.csv', sep=";", decimal=",")
 
-    save_csv_file("lab2_ex01_df.pkl", df)
+    save_pkl_file("lab2_ex01_df.pkl", df)
 
     # task 2
     df1 = df.copy(True)
@@ -74,8 +71,9 @@ def main():
 
     custom_cat_type = CategoricalDtype(categories=txt_list, ordered=False)
 
-    df2[col_name] = df2[col_name].astype(custom_cat_type)
-    
+    for key, val in txt_dict:
+        df2[col_name] = df2[col_name].astype(custom_cat_type)
+
     filename = "lab2_ex03_categories.pkl"
 
     save_pkl_file(filename, df2)
@@ -98,6 +96,7 @@ def main():
 
     save_pkl_file("lab2_ex04_numbers.pkl", filtered_df3)
 
+
     # task 5 - skipped 4 to match task with dataframe naming
     df5 = df.copy(True)
 
@@ -117,11 +116,15 @@ def main():
     for i, col_name in enumerate(df5.columns, start=1):
         # One-hot encode with boolean values and no prefixes
         dummies = pd.get_dummies(df5[col_name], prefix='', prefix_sep='', dtype=bool)
+
+        print(dummies)
         
         # Save to the required file naming format
         filename = f"lab2_ex05_col{i}.pkl"
         dummies.to_pickle(filename)
+        print(f"Saved {col_name} to {filename}")
 
+    print(filtered_df)
 
 if __name__ == "__main__":
     main()
