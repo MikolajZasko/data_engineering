@@ -1,0 +1,52 @@
+{
+    "concat_columns": [
+        "engine",
+        "model",
+        "make"
+    ],
+    "join_column": "engine",
+    "aggregations": [
+        [
+            "displacement",
+            "min"
+        ],
+        [
+            "displacement",
+            "max"
+        ],
+        [
+            "consumption",
+            "mean"
+        ]
+    ],
+    "grouping_column": "fuel_type",
+    "extra_category": "electric",
+    "wide_id_vars": [
+        "entity",
+        "site"
+    ],
+    "wide_value_vars": [
+        "load_2023",
+        "load_2025",
+        "distance_2023",
+        "distance_2025"
+    ],
+    "stubs": [
+        "load",
+        "distance"
+    ],
+    "sep": "_",
+    "suffix_regex": "[0-9]+",
+    "meta_fields": [
+        "site"
+    ],
+    "index_levels": [
+        "domain",
+        "period"
+    ],
+    "pivot_index": [
+        "site"
+    ],
+    "pivot_columns": "product",
+    "pivot_values": "quantity"
+}
