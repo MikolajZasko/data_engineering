@@ -1,0 +1,4 @@
+fuel_type,doors,consumption,displacement,horsepower
+diesel,3.6,9.08061564364,1242.0,179.0
+gasoline,3.9166666666666665,7.765186188775,1498.0,237.0
+hybrid,4.0,7.207888364433333,1598.0,88.0
