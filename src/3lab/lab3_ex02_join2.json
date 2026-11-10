@@ -1,0 +1,263 @@
+[
+    {
+        "engine":"e43",
+        "displacement":1598,
+        "horsepower":213,
+        "fuel_type":"gasoline",
+        "model":null,
+        "make":null,
+        "description":null
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-643",
+        "make":"Seat",
+        "description":"e46 model-643 Seat"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-577",
+        "make":"Volvo",
+        "description":"e46 model-577 Volvo"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-431",
+        "make":"Volvo",
+        "description":"e46 model-431 Volvo"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-908",
+        "make":"Audi",
+        "description":"e46 model-908 Audi"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-580",
+        "make":"Volvo",
+        "description":"e46 model-580 Volvo"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-312",
+        "make":"Toyota",
+        "description":"e46 model-312 Toyota"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-947",
+        "make":"Fiat",
+        "description":"e46 model-947 Fiat"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-703",
+        "make":"Ford",
+        "description":"e46 model-703 Ford"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-585",
+        "make":"Seat",
+        "description":"e46 model-585 Seat"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-653",
+        "make":"Ford",
+        "description":"e46 model-653 Ford"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-690",
+        "make":"Toyota",
+        "description":"e46 model-690 Toyota"
+    },
+    {
+        "engine":"e46",
+        "displacement":1498,
+        "horsepower":237,
+        "fuel_type":"gasoline",
+        "model":"model-297",
+        "make":"Volvo",
+        "description":"e46 model-297 Volvo"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-872",
+        "make":"Seat",
+        "description":"e45 model-872 Seat"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-542",
+        "make":"Audi",
+        "description":"e45 model-542 Audi"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-885",
+        "make":"Toyota",
+        "description":"e45 model-885 Toyota"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-957",
+        "make":"Toyota",
+        "description":"e45 model-957 Toyota"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-637",
+        "make":"Ford",
+        "description":"e45 model-637 Ford"
+    },
+    {
+        "engine":"e45",
+        "displacement":1598,
+        "horsepower":88,
+        "fuel_type":"hybrid",
+        "model":"model-148",
+        "make":"Volvo",
+        "description":"e45 model-148 Volvo"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-674",
+        "make":"Ford",
+        "description":"e53 model-674 Ford"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-566",
+        "make":"Audi",
+        "description":"e53 model-566 Audi"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-463",
+        "make":"Seat",
+        "description":"e53 model-463 Seat"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-426",
+        "make":"Ford",
+        "description":"e53 model-426 Ford"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-902",
+        "make":"Fiat",
+        "description":"e53 model-902 Fiat"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-501",
+        "make":"Audi",
+        "description":"e53 model-501 Audi"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-767",
+        "make":"Ford",
+        "description":"e53 model-767 Ford"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-444",
+        "make":"Seat",
+        "description":"e53 model-444 Seat"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-496",
+        "make":"Toyota",
+        "description":"e53 model-496 Toyota"
+    },
+    {
+        "engine":"e53",
+        "displacement":1242,
+        "horsepower":179,
+        "fuel_type":"diesel",
+        "model":"model-811",
+        "make":"Ford",
+        "description":"e53 model-811 Ford"
+    }
+]
