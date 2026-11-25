@@ -1,182 +1,242 @@
 [
     {
-        "engine":"unknown-b",
-        "model":"model-389",
         "make":"Toyota",
+        "model":"model-389",
+        "engine":"unknown-b",
+        "doors":3,
+        "consumption":5.8720622829,
         "description":"unknown-b model-389 Toyota"
     },
     {
-        "engine":"e53",
-        "model":"model-674",
         "make":"Ford",
+        "model":"model-674",
+        "engine":"e53",
+        "doors":3,
+        "consumption":10.1537452958,
         "description":"e53 model-674 Ford"
     },
     {
-        "engine":"e45",
-        "model":"model-872",
         "make":"Seat",
+        "model":"model-872",
+        "engine":"e45",
+        "doors":3,
+        "consumption":10.8073759516,
         "description":"e45 model-872 Seat"
     },
     {
-        "engine":"e46",
-        "model":"model-643",
         "make":"Seat",
+        "model":"model-643",
+        "engine":"e46",
+        "doors":4,
+        "consumption":11.4901310061,
         "description":"e46 model-643 Seat"
     },
     {
-        "engine":"e53",
-        "model":"model-566",
         "make":"Audi",
+        "model":"model-566",
+        "engine":"e53",
+        "doors":3,
+        "consumption":4.38397436,
         "description":"e53 model-566 Audi"
     },
     {
-        "engine":"e53",
-        "model":"model-463",
         "make":"Seat",
+        "model":"model-463",
+        "engine":"e53",
+        "doors":4,
+        "consumption":10.9417419551,
         "description":"e53 model-463 Seat"
     },
     {
-        "engine":"e46",
-        "model":"model-577",
         "make":"Volvo",
+        "model":"model-577",
+        "engine":"e46",
+        "doors":3,
+        "consumption":9.5182597226,
         "description":"e46 model-577 Volvo"
     },
     {
-        "engine":"e45",
-        "model":"model-542",
         "make":"Audi",
+        "model":"model-542",
+        "engine":"e45",
+        "doors":3,
+        "consumption":5.8166231245,
         "description":"e45 model-542 Audi"
     },
     {
-        "engine":"e46",
-        "model":"model-431",
         "make":"Volvo",
+        "model":"model-431",
+        "engine":"e46",
+        "doors":4,
+        "consumption":6.1287818776,
         "description":"e46 model-431 Volvo"
     },
     {
-        "engine":"e46",
-        "model":"model-908",
         "make":"Audi",
+        "model":"model-908",
+        "engine":"e46",
+        "doors":3,
+        "consumption":4.9603657515,
         "description":"e46 model-908 Audi"
     },
     {
-        "engine":"e53",
-        "model":"model-426",
         "make":"Ford",
+        "model":"model-426",
+        "engine":"e53",
+        "doors":3,
+        "consumption":5.4943433029,
         "description":"e53 model-426 Ford"
     },
     {
-        "engine":"e53",
-        "model":"model-902",
         "make":"Fiat",
+        "model":"model-902",
+        "engine":"e53",
+        "doors":3,
+        "consumption":11.3445803292,
         "description":"e53 model-902 Fiat"
     },
     {
-        "engine":"unknown-a",
-        "model":"model-263",
         "make":"Fiat",
+        "model":"model-263",
+        "engine":"unknown-a",
+        "doors":3,
+        "consumption":7.5678722874,
         "description":"unknown-a model-263 Fiat"
     },
     {
-        "engine":"e53",
-        "model":"model-501",
         "make":"Audi",
+        "model":"model-501",
+        "engine":"e53",
+        "doors":3,
+        "consumption":8.3756576231,
         "description":"e53 model-501 Audi"
     },
     {
-        "engine":"e46",
-        "model":"model-580",
         "make":"Volvo",
+        "model":"model-580",
+        "engine":"e46",
+        "doors":4,
+        "consumption":4.6061363953,
         "description":"e46 model-580 Volvo"
     },
     {
-        "engine":"e53",
-        "model":"model-767",
         "make":"Ford",
+        "model":"model-767",
+        "engine":"e53",
+        "doors":3,
+        "consumption":6.1036921233,
         "description":"e53 model-767 Ford"
     },
     {
-        "engine":"e46",
-        "model":"model-312",
         "make":"Toyota",
+        "model":"model-312",
+        "engine":"e46",
+        "doors":4,
+        "consumption":11.5813278034,
         "description":"e46 model-312 Toyota"
     },
     {
-        "engine":"e46",
-        "model":"model-947",
         "make":"Fiat",
+        "model":"model-947",
+        "engine":"e46",
+        "doors":4,
+        "consumption":5.2046787786,
         "description":"e46 model-947 Fiat"
     },
     {
-        "engine":"e45",
-        "model":"model-885",
         "make":"Toyota",
+        "model":"model-885",
+        "engine":"e45",
+        "doors":4,
+        "consumption":5.9833797278,
         "description":"e45 model-885 Toyota"
     },
     {
-        "engine":"e45",
-        "model":"model-957",
         "make":"Toyota",
+        "model":"model-957",
+        "engine":"e45",
+        "doors":4,
+        "consumption":5.9365826674,
         "description":"e45 model-957 Toyota"
     },
     {
-        "engine":"e46",
-        "model":"model-703",
         "make":"Ford",
+        "model":"model-703",
+        "engine":"e46",
+        "doors":4,
+        "consumption":11.6329726114,
         "description":"e46 model-703 Ford"
     },
     {
-        "engine":"e46",
-        "model":"model-585",
         "make":"Seat",
+        "model":"model-585",
+        "engine":"e46",
+        "doors":5,
+        "consumption":4.406550101,
         "description":"e46 model-585 Seat"
     },
     {
-        "engine":"e46",
-        "model":"model-653",
         "make":"Ford",
+        "model":"model-653",
+        "engine":"e46",
+        "doors":3,
+        "consumption":4.0348576936,
         "description":"e46 model-653 Ford"
     },
     {
-        "engine":"e45",
-        "model":"model-637",
         "make":"Ford",
+        "model":"model-637",
+        "engine":"e45",
+        "doors":5,
+        "consumption":9.4242315021,
         "description":"e45 model-637 Ford"
     },
     {
-        "engine":"e45",
-        "model":"model-148",
         "make":"Volvo",
+        "model":"model-148",
+        "engine":"e45",
+        "doors":5,
+        "consumption":5.2791372132,
         "description":"e45 model-148 Volvo"
     },
     {
-        "engine":"e53",
-        "model":"model-444",
         "make":"Seat",
+        "model":"model-444",
+        "engine":"e53",
+        "doors":5,
+        "consumption":11.1664630382,
         "description":"e53 model-444 Seat"
     },
     {
-        "engine":"e46",
-        "model":"model-690",
         "make":"Toyota",
+        "model":"model-690",
+        "engine":"e46",
+        "doors":4,
+        "consumption":9.5795352731,
         "description":"e46 model-690 Toyota"
     },
     {
-        "engine":"e53",
-        "model":"model-496",
         "make":"Toyota",
+        "model":"model-496",
+        "engine":"e53",
+        "doors":5,
+        "consumption":11.0607946421,
         "description":"e53 model-496 Toyota"
     },
     {
-        "engine":"e46",
-        "model":"model-297",
         "make":"Volvo",
+        "model":"model-297",
+        "engine":"e46",
+        "doors":5,
+        "consumption":10.0386372511,
         "description":"e46 model-297 Volvo"
     },
     {
-        "engine":"e53",
-        "model":"model-811",
         "make":"Ford",
+        "model":"model-811",
+        "engine":"e53",
+        "doors":4,
+        "consumption":11.7811637667,
         "description":"e53 model-811 Ford"
     }
 ]

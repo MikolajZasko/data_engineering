@@ -1,0 +1,20 @@
+[
+    {
+        "displacement":1242.0,
+        "horsepower":179.0,
+        "doors":3.6,
+        "consumption":9.0806156436
+    },
+    {
+        "displacement":1498.0,
+        "horsepower":237.0,
+        "doors":3.9166666667,
+        "consumption":7.7651861888
+    },
+    {
+        "displacement":1598.0,
+        "horsepower":88.0,
+        "doors":4.0,
+        "consumption":7.2078883644
+    }
+]
