@@ -1,0 +1,40 @@
+{
+    "city": "Krak\u00f3w",
+    "id_column": "lamp_id",
+    "points": {
+        "coordinates": [
+            [
+                19.916431339769503,
+                50.06596454296225
+            ],
+            [
+                2217086.995162336,
+                6457707.584704813
+            ],
+            [
+                565567.8728043365,
+                244702.62361630518
+            ],
+            [
+                7422425.858335647,
+                5548319.54119864
+            ]
+        ],
+        "crss": [
+            "EPSG:4326",
+            "EPSG:3857",
+            "EPSG:2180",
+            "EPSG:2178"
+        ],
+        "out_crs": "EPSG:3857"
+    },
+    "basemaps": {
+        "Czechia": "lab4_basemap_czechia.tif",
+        "Germany": "lab4_basemap_germany.tif",
+        "Italy": "lab4_basemap_italy.tif",
+        "Lithuania": "lab4_basemap_lithuania.tif",
+        "Poland": "lab4_basemap_poland.tif"
+    },
+    "attribution": "Country boundaries and basemaps: Natural Earth (public domain)",
+    "roads_attribution": "\u00a9 OpenStreetMap contributors (ODbL), openstreetmap.org/copyright"
+}
